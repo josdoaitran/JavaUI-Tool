@@ -27,7 +27,7 @@ public class UI extends JFrame{
         clearResult = new JLabel();
         add(clearResult);
 
-        auvenirIcon =  new ImageIcon("src/Resource/Auvenir.jpg");
+        auvenirIcon =  new ImageIcon("src/Resource/images.png");
         imageLable = new JLabel(auvenirIcon);
         add(imageLable);
 
