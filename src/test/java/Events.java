@@ -1,12 +1,17 @@
-import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class Events extends UI {
 
-    public static class Event implements ActionListener{
+    public static class runButtonEvent implements ActionListener{
         public void actionPerformed(ActionEvent e) {
-            result.setText("AAAAAAAA");
+            runResult.setText("AAAAAAAA");
+        }
+    }
+    public static class clearButtonEvent implements ActionListener{
+        public void actionPerformed(ActionEvent e) {
+            clearResult.setText("BBBBBB");
         }
     }
 }
+
