@@ -43,6 +43,4 @@ public class UI extends JFrame{
         Events.clearButtonEvent eClear = new Events.clearButtonEvent();
         clearButton.addActionListener((ActionListener) eClear);
     }
-
-
 }
