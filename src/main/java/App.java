@@ -5,6 +5,12 @@ import java.awt.event.ActionListener;
 public class App {
     private JButton runButton;
     private JPanel mainPanel;
+    private JButton button2;
+    private JComboBox comboBox1;
+    private JTree testSuiteTree;
+    private JProgressBar progressBar1;
+    private JTextField textField3;
+    private JTextField textField1;
 
     public App() {
         runButton.addActionListener(new ActionListener() {
@@ -20,5 +26,20 @@ public class App {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
         frame.setVisible(true);
+        frame.setSize(1200,600);
+    }
+
+    private void createUIComponents() {
+        // TODO: place custom component creation code here
+    }
+
+    public void setData(TestCaseTree data) {
+    }
+
+    public void getData(TestCaseTree data) {
+    }
+
+    public boolean isModified(TestCaseTree data) {
+        return false;
     }
 }
