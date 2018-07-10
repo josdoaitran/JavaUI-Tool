@@ -2,7 +2,6 @@
 .idea/.name
 .idea/inspectionProfiles/
 .idea/workspace.xml
-src/main/
 target/generated-test-sources/
 target/test-classes/Events$clearButtonEvent.class
 target/test-classes/Events$runButtonEvent.class
